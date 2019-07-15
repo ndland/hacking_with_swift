@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA26C3B022D7FBFC009DC21E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA26C3AE22D7FBFC009DC21E /* DetailViewController.swift */; };
+		DA26C3B122D7FBFC009DC21E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA26C3AF22D7FBFC009DC21E /* DetailViewController.xib */; };
 		DA3DA9CF22D6BE2F005983A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DA9CE22D6BE2F005983A9 /* AppDelegate.swift */; };
 		DA3DA9D122D6BE2F005983A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3DA9D022D6BE2F005983A9 /* ViewController.swift */; };
 		DA3DA9D422D6BE2F005983A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3DA9D222D6BE2F005983A9 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA26C3AE22D7FBFC009DC21E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DA26C3AF22D7FBFC009DC21E /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		DA3DA9CB22D6BE2F005983A9 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3DA9CE22D6BE2F005983A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA3DA9D022D6BE2F005983A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				DA3DA9CE22D6BE2F005983A9 /* AppDelegate.swift */,
+				DA26C3AE22D7FBFC009DC21E /* DetailViewController.swift */,
+				DA26C3AF22D7FBFC009DC21E /* DetailViewController.xib */,
 				DA3DA9D022D6BE2F005983A9 /* ViewController.swift */,
 				DA3DA9D222D6BE2F005983A9 /* Main.storyboard */,
 				DA3DA9D522D6BE30005983A9 /* Assets.xcassets */,
@@ -169,6 +175,7 @@
 				DA83C6CD22D6BEE500FC29DD /* nssl0049.jpg in Resources */,
 				DA83C6D222D6BEE500FC29DD /* nssl0041.jpg in Resources */,
 				DA83C6D322D6BEE500FC29DD /* nssl0042.jpg in Resources */,
+				DA26C3B122D7FBFC009DC21E /* DetailViewController.xib in Resources */,
 				DA3DA9D922D6BE30005983A9 /* LaunchScreen.storyboard in Resources */,
 				DA3DA9D622D6BE30005983A9 /* Assets.xcassets in Resources */,
 				DA83C6D022D6BEE500FC29DD /* nssl0045.jpg in Resources */,
@@ -183,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA26C3B022D7FBFC009DC21E /* DetailViewController.swift in Sources */,
 				DA3DA9D122D6BE2F005983A9 /* ViewController.swift in Sources */,
 				DA3DA9CF22D6BE2F005983A9 /* AppDelegate.swift in Sources */,
 			);
