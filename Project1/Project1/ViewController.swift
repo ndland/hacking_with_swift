@@ -25,8 +25,6 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
-        // Do any additional setup after loading the view.
-        print(pictures.sorted())
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -35,7 +33,7 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
-        cell.textLabel?.text = pictures[indexPath.row]
+        cell.textLabel?.text = pictures.sorted()[indexPath.row]
         return cell
     }
     
