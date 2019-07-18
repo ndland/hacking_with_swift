@@ -26,7 +26,7 @@ class ViewController: UITableViewController {
             }
         }
         // Do any additional setup after loading the view.
-        print(pictures)
+        print(pictures.sorted())
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
