@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
         correctAnswer = Int.random(in: 0...2)
         
-        title = countries[correctAnswer].uppercased()
+        title = "Which flag is: " + countries[correctAnswer].uppercased() + " Your score is \(score)"
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
